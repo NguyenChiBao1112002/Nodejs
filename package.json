@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "backend nodejs ncbao",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node src/server.js"
+  },
+  "keywords": [
+    "fullstack",
+    "nodejs",
+    "express",
+    "ncb"
+  ],
+  "author": "Nguyen Chi Bao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.6",
+    "@babel/node": "7.22.19",
+    "@babel/preset-env": "7.23.6",
+    "nodemon": "3.0.2",
+    "sequelize": "^6.35.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}

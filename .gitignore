@@ -1,0 +1,7 @@
+/node_modules
+/vendor
+/.idea
+.idea/
+.env
+
+# Tuc la KO LOAD nhung thu muc nay len
